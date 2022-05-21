@@ -1,0 +1,24 @@
+{
+  "name": "functional-types",
+  "description": "Functional types for C#",
+  "title": "FunctionalTypes",
+  "version": "0.0.0",
+  "ciEnvironment": {
+    "variables": [
+      {
+        "name": "NUGET_API_KEY",
+        "description": "NuGet API Key"
+        "required": true,
+        "secret": true,
+        "defaultValue": null
+      },
+      {
+        "name": "NUGET_SOURCE",
+        "description": "NuGet Source URL"
+        "required": true,
+        "secret": true,
+        "defaultValue": "https://api.nuget.org"
+      }
+    ]
+  }
+}
